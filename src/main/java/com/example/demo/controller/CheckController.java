@@ -13,7 +13,7 @@ import com.example.demo.form.SampleForm;
 public class CheckController {
 	// 入力画面の表示
 	@GetMapping()
-	public String showForm(SampleForm) {
+	public String showForm(SampleForm form) {
 		return "entry";
 	}
 	
